@@ -1,0 +1,23 @@
+Crispr 0.6.0
+
+Change log:
+0.6.0
+- optimisations
+- bug fixes
+0.5.0
+- parallel read + mem efficiency
+- bug fixes
+0.4.0
+- parallel read
+0.3.0
+- improved write performance
+- fixed #buffer param
+0.2.0
+- Improved algorithm, much lower memory requirements
+- CLI options: renamed path to target
+- quietly skipping non-plot files
+0.1.0
+- initial release
+
+Todo log:
+- resume
