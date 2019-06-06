@@ -1,0 +1,21 @@
+Compressor 0.2.0
+
+Change log:
+
+0.2.0
+
+- chunkmode (x=8) is default now. To disable chunk plotting use x=0.
+
+- escalation mode has changed. Escalation parameter is now used to tweak gpu performance by using more RAM. Great with high-end GPUs.
+
+- Multipath mode, parallel plotting: compressor will now automatically use as many buffers as possible to 
+  achieve the highest level of parallelisation. E.g. if you specify 8 target drives and have enough memory for 5 buffers, 
+  5 drives will always be writing in parallel, round robin (assuming you can hash fast enough). 
+
+0.1.0
+
+- initial release
+
+Todo log:
+
+- resume in chunkmode, (skip finished, redo unfinished)
