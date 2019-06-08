@@ -1,0 +1,11 @@
+Conqueror 0.2.0
+
+Change log:
+
+0.2.0
+- reduced number of memcopies
+- only allocate buffers once
+- changes threadpool concept
+
+0.1.0
+- initial release
